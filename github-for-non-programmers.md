@@ -22,11 +22,11 @@ Isn't that more informative than several copies of a Word document named `Conten
 
 ### Key Vocabulary
 
-* Version Control: In programming, it's a way to track changes made to code over time. This means that mistakes can be easily reverted. You also don't have to worry if you're using the most recent copy of something--the version control system makes it easy to see if something has changed.
-* Git: One of the most popular programs for implementing version control.
-* Repository: Also just "repo" for short, it's the folder that contains all of the files you want git to track for you.
-* Commit: A specific snapshot of your work. You manually choose when to create a commit, and you need to give it a descriptive name.
-* GitHub: A website that lets you keep a copy of your repository online. It also allows you to collaborate with others on the same repository, keeping track of who changes what and avoiding conflicts.
+* **Version Control**: In programming, it's a way to track changes made to code over time. This means that mistakes can be easily reverted. You also don't have to worry if you're using the most recent copy of something--the version control system makes it easy to see if something has changed.
+* **Git**: One of the most popular programs for implementing version control.
+* **Repository**: Also just "repo" for short, it's the folder that contains all of the files you want git to track for you.
+* **Commit**: A specific snapshot of your work. You manually choose when to create a commit, and you need to give it a descriptive name.
+* **GitHub**: A website that lets you keep a copy of your repository online. It also allows you to collaborate with others on the same repository, keeping track of who changes what and avoiding conflicts.
 
 ## OK, Let's Get Started!
 
@@ -35,3 +35,11 @@ Isn't that more informative than several copies of a Word document named `Conten
 3. Enter your user info from step 1 into the GitHub desktop app you installed in step 2.
 
 That was pretty painless, right? Let's get ready to practice creating repos, making commits, and working as a team on GitHub!
+
+## Creating Your First Repository
+
+You've got the GitHub desktop app installed and hooked up to your account. Now it's time to start putting something under version control!
+
+In the GitHub desktop app, click the plus arrow in the upper left. By default, this lets you **Create** a new repo. (You can also **Add** one already on your system that the app doesn't know about yet, or **Clone** one that's already on GitHub but not on your computer.) Give the repo a descriptive name (no spaces!) and choose where you want it to be saved. By default, it saves new repos in `C:\Users\<<username>>\Documents\GitHub\<<repo-name>>`, which is the same as saying `My Documents > GitHub > <<repo-name>>`. You can choose a different location if you prefer. Once you've picked a name and a place to save the repo, go ahead and click **Create Repository**.
+
+![Create a new repository!](create-repo.png)
