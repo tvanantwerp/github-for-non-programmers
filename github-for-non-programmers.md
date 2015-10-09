@@ -38,7 +38,7 @@ That was pretty painless, right? Let's get ready to practice creating repos, mak
 
 You've got the GitHub desktop app installed and hooked up to your account. Now it's time to start putting something under version control!
 
-In the GitHub desktop app, click the plus arrow in the upper left. By default, this lets you **Create** a new repo. (You can also **Add** one already on your system that the app doesn't know about yet, or **Clone** one that's already on GitHub but not on your computer.) Give the repo a descriptive name (no spaces!) and choose where you want it to be saved. By default, it saves new repos in `C:\Users\<<username>>\Documents\GitHub\<<repo-name>>`, which is the same as saying `My Documents > GitHub > <<repo-name>>`. You can choose a different location if you prefer. Once you've picked a name and a place to save the repo, go ahead and click **Create Repository**.
+In the GitHub desktop app, click the plus arrow in the upper left. By default, this lets you **Create** a new repo. (You can also **Add** one already on your system that the app doesn't know about yet, or **Clone** one that's already on GitHub but not on your computer.) Give the repo a descriptive name (no spaces!) and choose where you want it to be saved. By default, it saves new repos in `C:\Users\[[username]]\Documents\GitHub\[[repo-name]]`, which is the same as saying `My Documents > GitHub > [[repo-name]]`. You can choose a different location if you prefer. Once you've picked a name and a place to save the repo, go ahead and click **Create Repository**.
 
 ### Create the Repo
 ![Create a new repository!](create-repo.png)
@@ -88,3 +88,17 @@ You should try to make commits that are logical chunks of work that you've done.
 As another example of what I mean by committing the logical chunks of your work as you go, here's the commit history of this guide up to this point:
 
 ![Guide commit history](guide-commits.png)
+
+## Using GitHub
+
+So you now know how to create a repo, make commits to your repo, and track the history of your work. So far, everything we've done has happened just on your computer--no GitHub involved. It's time to get your work online!
+
+You've probably noticed this part of the GitHub desktop app and wondered what it was:
+
+![Branches bar, work unpublished](branches-bar-unpublished.png)
+
+This block allows you to do several things that we'll talk about later in the guide. The most important bit you need to know about right now is the button in the upper-right that says **Publish**. This button is what lets you put the repo on your PC onto GitHub for the first time.
+
+![Publishing menu](publish.png)
+
+When you click **Publish**, you will get to give your repo a description, choose the account you're publishing it with (if your have more than one, or are part of an organizational account), and choose whether or not the repo should be private (a paid feature--repositories are publicly viewable by default). Once you've chosen all of your options, go ahead and click **Publish [[repo-name]]**.
