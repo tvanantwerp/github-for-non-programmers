@@ -84,3 +84,7 @@ Now that you know how to review changes between commits and create new commits, 
 If you ask Google that question, you'll get all sorts of dubious relationship advice. I can't really advise you about relationships, but I can give you advice on when to create commits to your work.
 
 You should try to make commits that are logical chunks of work that you've done. In my example commit history, I created commits for new files, new sections of text documents that I'd written, and for rewrites of those sections. You probably don't need to make a commit for adding a comma somewhere--you can wait and include that change with a larger body of changes. However, you shouldn't wait too long. If your repo only has a single commit of your finished work, then you're not really using version control at all.
+
+As another example of what I mean by committing the logical chunks of your work as you go, here's the commit history of this guide up to this point:
+
+![Guide commit history](guide-commits.png)
