@@ -59,4 +59,4 @@ When you choose a commit from the list, you can see what files have been changed
 
 > #### A note on naming:
 >
-> Git and GitHub are built for programmers who work in the world of code, not English. This means that files are typically named without any spaces and some other special characters. You should probably adopt file name conventions that are similar. Not only does having a style for file names help you find things, but it may also be necessary to avoid some weird errors. For example, inluding `#` in a file name can and will mess up your commits to GitHub. Best to keep things simple, like `important-file.txt`.
+> Git and GitHub are built for programmers who work in the world of code, not English. This means that files are typically named without any spaces and some other special characters. You should probably adopt file name conventions that are similar. Not only does having a style for file names help you find things, but it may also be necessary to avoid some weird errors. For example, including `#` in a file name (e.g., `Important File #1.docx`) can and will mess up your commits to GitHub. Best to keep things simple, like `important-file-1.txt`.
