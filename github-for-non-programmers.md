@@ -2,6 +2,8 @@
 
 GitHub is a website designed for programmers to collaboratively build their code. But that doesn't mean you need to be a programmer to use it! You can get started with collaborative version-tracking of your (non-programming) work without ever writing a line of code or using the command line.
 
+## A Guide for People Who Don't Code and Don't Want to Code.
+
 If you're unsure whether or not GitHub is something you want to try, I can understand. Learning new things is mentally taxing. So let me promise you now: once you've gone through this guide and given the GitHub workflow a try, you'll never want to go back to the way it was before. Why is that? Because the GitHub workflow is surprisingly simple and sane. You're going to eliminate a lot of problems that are *already* taxing your brain, such as "Which version of this file was the final one?" and "Who is responsible for making this edit?" Trust me, you're going to like this once you get into it.
 
 ## What is GitHub, Anyway?
@@ -10,11 +12,7 @@ Before we talk about GitHub, we have to talk about a program called **git**. Man
 
 Git works by allowing you to **commit** a snapshot of your work with a descriptive name. Each commit should have a name that tells you something about what you've changed since the previous commit. A list of commits  ordered newest to oldest might look like this:
 
-* `Rewrote introduction to match section one` *(<- what you did most recently)*
-* `Wrote section one`
-* `Wrote introduction`
-* `Added first text file`
-* `Initial commit` *(<- what you did first, often just creating an empty repo)*
+![Git Commit History](git-commits.png)
 
 Isn't that more informative than several copies of a Word document named `Content.docx`, `Content Final.docx`, `Content Final FINAL.docx`, etc.? By using git commits, you don't need multiple copies of a regularly changed file; there's only the one file you care about, and all the snapshots you took along the way. And with meaningful commit messages, you don't have to guess what changes are in what version of your work.
 
@@ -45,7 +43,7 @@ In the GitHub desktop app, click the plus arrow in the upper left. By default, t
 ### Create the Repo
 ![Create a new repository!](create-repo.png)
 
-You've just create a folder where git can track your work for this project!
+You've just created a folder where git can track your work for this project!
 
 When you create your first repo, it will automatically make your first commit for you. This first commit contains files that help git properly track your work. You can ignore these files for now, but don't move or delete them! These files are usually hidden, so you'll likely only see them if you have enabled the viewing of hidden system files on your computer.
 
