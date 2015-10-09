@@ -14,7 +14,7 @@ Git works by allowing you to **commit** a snapshot of your work with a descripti
 
 ![Git Commit History](git-commits.png)
 
-Isn't that more informative than several copies of a Word document named `Content.docx`, `Content Final.docx`, `Content Final FINAL.docx`, etc.? By using git commits, you don't need multiple copies of a regularly changed file; there's only the one file you care about, and all the snapshots you took along the way. And with meaningful commit messages, you don't have to guess what changes are in what version of your work.
+Isn't that more informative than several copies of a Word document named `Content.docx`, `Content Final.docx`, `Content Final FINAL.docx`, etc.? By using git commits, you don't need multiple copies of a regularly changed file; there's only the one copy of the files you care about, and all the snapshots you took along the way. And with meaningful commit messages, you don't have to guess what changes are in what version of your work.
 
 **GitHub** is a website that lets you store a copy of your git repository online where you can your collaborators can share it and work together. GitHub allows you and your team to know who is changing what and why. You can be sure that you're working off of the most recent copy of the work by pulling new commits from GitHub. And when you're done making commits of your own, you can push them back to GitHub for everyone else to use. You can also use features like GitHub Issues to keep track of problems and to-dos, and discuss them as a team. GitHub also makes it easy to control who can make what changes, and for merging different changes by different people together.
 
@@ -57,6 +57,30 @@ When you choose a commit from the list, you can see what files have been changed
 ### Changes to Text in a File
 ![Git diff](git-diff.png)
 
-> #### A note on naming:
+> #### A note on naming things:
 >
-> Git and GitHub are built for programmers who work in the world of code, not English. This means that files are typically named without any spaces and some other special characters. You should probably adopt file name conventions that are similar. Not only does having a style for file names help you find things, but it may also be necessary to avoid some weird errors. For example, including `#` in a file name (e.g., `Important File #1.docx`) can and will mess up your commits to GitHub. Best to keep things simple, like `important-file-1.txt`.
+> Git and GitHub are built for programmers who work in the world of code, not English. This means that files are typically named without any spaces and some other special characters that have particular meaning in programming. You should probably adopt file name conventions that are similar. Not only does having a style for file names help you organize things, but it may also be necessary to avoid some weird errors. For example, including `#` in a file name (e.g., `Important File #1.docx`) will cause errors in your commits to GitHub. Best to keep things simple, like `important-file-1.txt`.
+
+### Creating a History of Commits
+
+Now that you've got a repository, you'll need to make commits to keep track of your work. In the GitHub desktop app, you'll have two main view for your repo: the commit history and the uncommitted changes. You can switch between these views with the buttons in the top-center of the program. You've already seen what the history view looks like when we viewed your first automatic commit. Let's make some changes to your repo and take a look at that!
+
+![Uncommitted changes](uncommitted-changes.png)
+
+In this example above, you can see a list of all of the files that have changed since the last commit. You can see that I'm adding two new text files in a folder called `new-folder`. I've also edited a file called `second-file.txt`, completely replacing the second paragraph of text as previewed on the right. Commits let us track saved changes to *any* file within the repo's folder. If no changes were made to a set of files, those files won't been seen in commit summaries.
+
+The changes view allows me to review what I've done since the last commit and, if I'm happy with these changes, create a new commit with my changes. To do this, look at the box in the bottom-left corner and simply give the commit a name in the **Summary** field and click **Commit to master**.
+
+![New commit message](commit-message.png)
+
+Easy, right? Now we can go back to our history view and see the new commit at the top of our history with a full summary of the changes we made.
+
+![Update commit history](new-commit-history.png)
+
+Now that you know how to review changes between commits and create new commits, you're ready to build a habit of committing changes to your work on a regular basis.
+
+### When Should I Commit
+
+If you ask Google that question, you'll get all sorts of dubious relationship advice. I can't really advise you about relationships, but I can give you advice on when to create commits to your work.
+
+You should try to make commits that are logical chunks of work that you've done. In my example commit history, I created commits for new files, new sections of text documents that I'd written, and for rewrites of those sections. You probably don't need to make a commit for adding a comma somewhere--you can wait and include that change with a larger body of changes. However, you shouldn't wait too long. If your repo only has a single commit of your finished work, then you're not really using version control at all.
