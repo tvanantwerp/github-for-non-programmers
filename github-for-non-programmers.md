@@ -12,7 +12,7 @@ Before we talk about GitHub, we have to talk about a program called **git**. Man
 
 Git works by allowing you to **commit** a snapshot of your work with a descriptive name. Each commit should have a name that tells you something about what you've changed since the previous commit. A list of commits  ordered newest to oldest might look like this:
 
-![Git Commit History](git-commits.png)
+![Git Commit History](images/git-commits.png)
 
 Isn't that more informative than several copies of a Word document named `Content.docx`, `Content Final.docx`, `Content Final FINAL.docx`, etc.? By using git commits, you don't need multiple copies of a regularly changed file; there's only the one copy of the files you care about, and all the snapshots you took along the way. And with meaningful commit messages, you don't have to guess what changes are in what version of your work.
 
@@ -41,21 +41,21 @@ You've got the GitHub desktop app installed and hooked up to your account. Now i
 In the GitHub desktop app, click the plus arrow in the upper left. By default, this lets you **Create** a new repo. (You can also **Add** one already on your system that the app doesn't know about yet, or **Clone** one that's already on GitHub but not on your computer.) Give the repo a descriptive name (no spaces!) and choose where you want it to be saved. By default, it saves new repos in `C:\Users\[[username]]\Documents\GitHub\[[repo-name]]`, which is the same as saying `My Documents > GitHub > [[repo-name]]`. You can choose a different location if you prefer. Once you've picked a name and a place to save the repo, go ahead and click **Create Repository**.
 
 ### Create the Repo
-![Create a new repository!](create-repo.png)
+![Create a new repository!](images/create-repo.png)
 
 You've just created a folder where git can track your work for this project!
 
 When you create your first repo, it will automatically make your first commit for you. This first commit contains files that help git properly track your work. You can ignore these files for now, but don't move or delete them! These files are usually hidden, so you'll likely only see them if you have enabled the viewing of hidden system files on your computer.
 
 ### New Repository and First Commit
-![New repo inside GitHub desktop app](new-repo.png)
+![New repo inside GitHub desktop app](images/new-repo.png)
 
 Inside the GitHub desktop app, when you are working on one of the repositories in the long list on the left, it will default to a view of the commit history. Above, you'll see that there is only one commit listed. This commit, named `Added .gitattributes & .gitignore files`, is automatic. When we make more commits, they will show up in the list on the left with their name, the time the commit was created, and the name of the person who made that commit.
 
 When you choose a commit from the list, you can see what files have been changed on the right. The colored squares to the far right of a file's name indicate how much has been added versus how much has been removed from that file. Green equals additions, and red equals subtractions. If you click the arrow to the immediate left of a file's name, it will show you the exact lines of the file that have changed. (Note: this doesn't work for files that *are not* just lines of text, such as an image file.) Sections in green have been added, and sections in red have been removed. Below is an example from this very guide!
 
 ### Changes to Text in a File
-![Git diff](git-diff.png)
+![Git diff](images/git-diff.png)
 
 > #### A note on naming things:
 >
@@ -65,17 +65,17 @@ When you choose a commit from the list, you can see what files have been changed
 
 Now that you've got a repository, you'll need to make commits to keep track of your work. In the GitHub desktop app, you'll have two main view for your repo: the commit history and the uncommitted changes. You can switch between these views with the buttons in the top-center of the program. You've already seen what the history view looks like when we viewed your first automatic commit. Let's make some changes to your repo and take a look at that!
 
-![Uncommitted changes](uncommitted-changes.png)
+![Uncommitted changes](images/uncommitted-changes.png)
 
 In this example above, you can see a list of all of the files that have changed since the last commit. You can see that I'm adding two new text files in a folder called `new-folder`. I've also edited a file called `second-file.txt`, completely replacing the second paragraph of text as previewed on the right. Commits let us track saved changes to *any* file within the repo's folder. If no changes were made to a set of files, those files won't been seen in commit summaries.
 
 The changes view allows me to review what I've done since the last commit and, if I'm happy with these changes, create a new commit with my changes. To do this, look at the box in the bottom-left corner and simply give the commit a name in the **Summary** field and click **Commit to master**.
 
-![New commit message](commit-message.png)
+![New commit message](images/commit-message.png)
 
 Easy, right? Now we can go back to our history view and see the new commit at the top of our history with a full summary of the changes we made.
 
-![Update commit history](new-commit-history.png)
+![Update commit history](images/new-commit-history.png)
 
 Now that you know how to review changes between commits and create new commits, you're ready to build a habit of committing changes to your work on a regular basis.
 
@@ -87,7 +87,7 @@ You should try to make commits that are logical chunks of work that you've done.
 
 As another example of what I mean by committing the logical chunks of your work as you go, here's the commit history of this guide up to this point:
 
-![Guide commit history](guide-commits.png)
+![Guide commit history](images/guide-commits.png)
 
 ## Using GitHub
 
@@ -95,15 +95,15 @@ So you now know how to create a repo, make commits to your repo, and track the h
 
 You've probably noticed this part of the GitHub desktop app and wondered what it was:
 
-![Branches bar, work unpublished](branches-bar-unpublished.png)
+![Branches bar, work unpublished](images/branches-bar-unpublished.png)
 
 This block allows you to do several things that we'll talk about later in the guide. The most important bit you need to know about right now is the button in the upper-right that says **Publish**. This button is what lets you put the repo on your PC onto GitHub for the first time.
 
-![Publishing menu](publish.png)
+![Publishing menu](images/publish.png)
 
 When you click **Publish**, you will get to give your repo a description, choose the account you're publishing it with (if your have more than one, or are part of an organizational account), and choose whether or not the repo should be private (a paid feature--repositories are publicly viewable by default). Once you've chosen all of your options, go ahead and click **Publish [[repo-name]]**.
 
-![Branches bar, work published](branches-bar-published.png)
+![Branches bar, work published](images/branches-bar-published.png)
 
 Now you'll see that the **Publish** button has changed into a **Sync** button. And all of those little circles that were on a line underneath it have shrunk into little dots. This shows that your repo is now on GitHub. The circles represented commits that were not yet on GitHub, and the dots represent commits that are synchronized with GitHub. As you make new commits on your computer, new circles will be added to the end of that line and will again change to dots after you **Sync**.
 
@@ -111,4 +111,4 @@ Let's go to GitHub and check out your repo! All GitHub repositories live at `git
 
 Below is what my example repository looks like on GitHub:
 
-![Example repo on GitHub](repo-on-github.png)
+![Example repo on GitHub](images/repo-on-github.png)
