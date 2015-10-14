@@ -6,7 +6,7 @@ This guide isn't meant to turn someone into a `git` master. It should show non-p
 
 ## Contributing
 
-Any help is welcome in improving this guide. Please see [our contributing guidelines](https://github.com/tvanantwerp/github-for-non-programmers/blog/master/CONTRIBUTING.md) for ways to help out.
+Any help is welcome in improving this guide. Please see [our contributing guidelines](https://github.com/tvanantwerp/github-for-non-programmers/blob/master/CONTRIBUTING.md) for ways to help out.
 
 ## License
 
