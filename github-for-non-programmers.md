@@ -198,3 +198,7 @@ To create a new branch, click the branch icon in the GitHub Desktop App and give
 ![New Branch](images/new-branch.png)
 
 By default, new branches are based off of the master branch. You could also base a new branch off of yet another branch if you like. Branching structures can get quite complicated, but I'll keep things simple in this guide by only showing what a feature branch workflow might look like. That means that I'll limit each branch to being about just one new feature, which, when complete, will be merged back into master.
+
+![New Branch Display](images/new-branch-display.png)
+
+You'll notice that the bar along the top of your GitHub Desktop App has changed. You're now looking at the new branch, which isn't yet published on GitHub. This branch only exists on your PC for the time being. Let's got ahead and publish it so that GitHub will be keeping a copy as well.
