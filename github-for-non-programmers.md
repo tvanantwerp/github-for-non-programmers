@@ -165,9 +165,11 @@ The other three types of information an Issue can have are **Labels**, **Milesto
 
 Labels are informative tags that describe what kind of an issue this is. I've tagged our example with the *enhancement* label, because the work that satisfies this issue would constitute an enhancement to the project. Each repo has several default Labels, but you can edit them, delete them, and create your own. An issue can have multiple Labels.
 
-![Labels](images/labels)
+![Labels](images/labels.png)
 
 Milestones are large strategic project goals. You can optionally create project Milestones and assign issues to them. The Milestones view will let you see each of these larger goals and your progress toward completing them based on how many of the issues assigned to that Milestone have been closed.
+
+![Example Milestones for this guide](images/milestones.png)
 
 Assignees are the people who are collaborators on your project who have been assigned this Issue. This lets you designate who is working on what.
 
