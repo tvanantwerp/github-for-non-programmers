@@ -59,7 +59,7 @@ When you choose a commit from the list, you can see what files have been changed
 
 > #### A note on naming things:
 >
-> Git and GitHub are built for programmers who work in the world of code, not English. This means that files are typically named without any spaces and some other special characters that have particular meaning in programming. You should probably adopt file name conventions that are similar. Not only does having a style for file names help you organize things, but it may also be necessary to avoid some weird errors. For example, including `#` in a file name (e.g., `Important File #1.docx`) will cause errors in your commits to GitHub. Best to keep things simple, like `important-file-1.txt`.
+> Git and GitHub are built for programmers who work in the world of code, not English. This means that files are typically named without any spaces or other special characters that have particular meaning in programming. You should probably adopt file name conventions that are similar. Not only does having a style for file names help you organize things, but it may also be necessary to avoid some weird errors. For example, including `#` in a file name (e.g., `Important File #1.docx`) will cause errors in your commits to GitHub. Best to keep things simple, like `important-file-1.txt`.
 
 ### Creating a History of Commits
 
@@ -79,7 +79,7 @@ Easy, right? Now we can go back to our history view and see the new commit at th
 
 Now that you know how to review changes between commits and create new commits, you're ready to build a habit of committing changes to your work on a regular basis.
 
-### When Should I Commit
+### When Should I Commit?
 
 If you ask Google that question, you'll get all sorts of dubious relationship advice. I can't really advise you about relationships, but I can give you advice on when to create commits to your work.
 
@@ -146,3 +146,29 @@ Clicking on a file will let you view its contents, line-by-line. At the top of t
 If you go to the list of commits, either by viewing a specific file's history or by clicking **# Commits** at the top of the main repository page, you can view the same commit summary that you would see in the GitHub desktop app.
 
 ![Commit summary](images/github-commit-view.png)
+
+### GitHub Issues
+
+One of GitHub's most useful features for planning work and tracking progress is **Issues**. Each issue you create for a repo is a little note with a description of work to be done and, optionally, information about what kind of work it is, who is assigned to that task, and what project milestone it is a part of.
+
+When you first view the Issues screen, you'll see an empty box where all of your issues will go. Along the top are options you can use later to filter and search through your issues. There's also the bright green **New issue** button, which we're going to use next.
+
+![Submit new Issues](images/issues-welcome.png)
+
+To demonstrate how Issues work, I'm going to create new Issues for the rest of this guide. After clicking the New Issue button, we'll start creating our first GitHub Issue!
+
+![New Issue](images/new-issue.png)
+
+New Issues take five kinds of information. The most important two are the name and the description. Much like a commit, you give an Issue a short and informative name and then an optional longer, more detailed description.
+
+The other three types of information an Issue can have are **Labels**, **Milestones**, and **Assignees**.
+
+Labels are informative tags that describe what kind of an issue this is. I've tagged our example with the *enhancement* label, because the work that satisfies this issue would constitute an enhancement to the project. Each repo has several default Labels, but you can edit them, delete them, and create your own. An issue can have multiple Labels.
+
+![Labels](images/labels)
+
+Milestones are large strategic project goals. You can optionally create project Milestones and assign issues to them. The Milestones view will let you see each of these larger goals and your progress toward completing them based on how many of the issues assigned to that Milestone have been closed.
+
+Assignees are the people who are collaborators on your project who have been assigned this Issue. This lets you designate who is working on what.
+
+You don't need to use Labels, Milestones, or Assignees, but they are helpful for larger projects to keep track of things. Once you're happy with the Issue you've created, go ahead and click the green button **Submit new issue**.

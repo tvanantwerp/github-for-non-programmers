@@ -7,3 +7,7 @@
 ## I want to add a section.
 
 Fork this repository, add your section, and submit a pull request. If it enhances the guide, I'll merge it in.
+
+## This guide stinks. You stink. You're a stinky poo-poo head.
+
+Well, that's just, like, your opinion, man.
