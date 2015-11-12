@@ -1,4 +1,4 @@
-## GitHub Basics
+# GitHub Basics
 
 So you now know how to create a repo, make commits to your repo, and track the history of your work. So far, everything we've done has happened just on your computer--no GitHub involved. It's time to get your work online!
 

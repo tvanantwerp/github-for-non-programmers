@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Creating a History of Commits | GitHub for Non-Programmers</title>
+        <title>The Sidebar | GitHub for Non-Programmers</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.5.2">
@@ -37,10 +37,10 @@
         
     
     
-    <link rel="next" href="./github-basics.html" />
+    <link rel="next" href="./issues.html" />
     
     
-    <link rel="prev" href="./new-repo-first-commit.html" />
+    <link rel="prev" href="./name-summary-files.html" />
     
 
         
@@ -48,7 +48,7 @@
     <body>
         
         
-    <div class="book" data-level="3.2" data-chapter-title="Creating a History of Commits" data-filepath="creating-history-commits.md" data-basepath="." data-revision="Thu Nov 12 2015 15:05:53 GMT-0500 (Eastern Standard Time)">
+    <div class="book" data-level="4.2" data-chapter-title="The Sidebar" data-filepath="sidebar.md" data-basepath="." data-revision="Thu Nov 12 2015 15:05:53 GMT-0500 (Eastern Standard Time)">
     
 
 <div class="book-summary">
@@ -137,7 +137,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.2" data-path="creating-history-commits.html">
+        <li class="chapter " data-level="3.2" data-path="creating-history-commits.html">
             
                 
                     <a href="./creating-history-commits.html">
@@ -188,7 +188,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2" data-path="sidebar.html">
+        <li class="chapter active" data-level="4.2" data-path="sidebar.html">
             
                 
                     <a href="./sidebar.html">
@@ -307,20 +307,14 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="creating-a-history-of-commits">Creating a History of Commits</h1>
-<p>Now that you&apos;ve got a repository, you&apos;ll need to make commits to keep track of your work. In the GitHub desktop app, you&apos;ll have two main view for your repo: the commit history and the uncommitted changes. You can switch between these views with the buttons in the top-center of the program. You&apos;ve already seen what the history view looks like when we viewed your first automatic commit. Let&apos;s make some changes to your repo and take a look at that!</p>
-<p><img src="images/uncommitted-changes.png" alt="Uncommitted changes"></p>
-<p>In this example above, you can see a list of all of the files that have changed since the last commit. You can see that I&apos;m adding two new text files in a folder called <code>new-folder</code>. I&apos;ve also edited a file called <code>second-file.txt</code>, completely replacing the second paragraph of text as previewed on the right. Commits let us track saved changes to <em>any</em> file within the repo&apos;s folder. If no changes were made to a set of files, those files won&apos;t been seen in commit summaries.</p>
-<p>The changes view allows me to review what I&apos;ve done since the last commit and, if I&apos;m happy with these changes, create a new commit with my changes. To do this, look at the box in the bottom-left corner and simply give the commit a name in the <strong>Summary</strong> field and click <strong>Commit to master</strong>.</p>
-<p><img src="images/commit-message.png" alt="New commit message"></p>
-<p>Easy, right? Now we can go back to our history view and see the new commit at the top of our history with a full summary of the changes we made.</p>
-<p><img src="images/new-commit-history.png" alt="Update commit history"></p>
-<p>Now that you know how to review changes between commits and create new commits, you&apos;re ready to build a habit of committing changes to your work on a regular basis.</p>
-<h2 id="when-should-i-commit">When Should I Commit?</h2>
-<p>If you ask Google that question, you&apos;ll get all sorts of dubious relationship advice. I can&apos;t really advise you about relationships, but I can give you advice on when to create commits to your work.</p>
-<p>You should try to make commits that are logical chunks of work that you&apos;ve done. In my example commit history, I created commits for new files, new sections of text documents that I&apos;d written, and for rewrites of those sections. You probably don&apos;t need to make a commit for adding a comma somewhere--you can wait and include that change with a larger body of changes. However, you shouldn&apos;t wait too long. If your repo only has a single commit of your finished work, then you&apos;re not really using version control at all.</p>
-<p>As another example of what I mean by committing the logical chunks of your work as you go, here&apos;s the commit history of this guide up to this point:</p>
-<p><img src="images/guide-commits.png" alt="Guide commit history"></p>
+                        <h1 id="the-sidebar">The Sidebar</h1>
+<p><img src="images/github-right-sidebar.png" alt="GitHub&apos;s Right Sidebar"></p>
+<p>The sidebar on the right side of your repo&apos;s page let&apos;s you quickly navigate to features related to your project. By default, you&apos;re on the <strong>Code</strong> page where you can see your files and information from the most recent commit to affect each of them.</p>
+<p>The second option takes you to the <strong>Issues</strong> section. GitHub issues are a very useful feature for keeping track of errors to fix, new features to create, etc. Think of it like your project&apos;s to-do list. You and your collaborators can create issues, discuss them in comments, and close them when they&apos;ve been resolved. You can also add tags to issues, so you can choose to only view errors or only planned features. Issues also lets you define project milestones that you can also use like tags, letting you track tasks to complete toward broader goals. We&apos;ll explore how issues work in-depth later in this guide.</p>
+<p>The third option lets you review requests from your collaborators to merge their changes into the larger project. These requests to merge changes are called <strong>Pull Requests</strong>. When a collaborator has made changes they want accepted into the larger project, they should submit a pull request for review rather than directly merge changes into the project. For programming projects, this review helps prevent sloppy code from making it into an otherwise stable piece of software. When someone with the rights to merge changes into the main project has reviewed the pull request and decided that it&apos;s acceptable, they can click a button to combine the changes into the rest of the project. We&apos;ll explore how pull requests work in-depth later in this guide.</p>
+<p>The fourth option takes you to the project <strong>Wiki</strong>. The wiki is an optional area where you can document your project. For code, this might be an explanation of how to use the software. Depending on the scope of your project, you may or may not want to maintain a wiki to instruct collaborators and users about the project.</p>
+<p>The next two options, <strong>Pulse</strong> and <strong>Graphs</strong>, show you statistics about the project. You can get a sense of who is contributing and how much, how popular the project is, etc. You may or may not find this information helpful.</p>
+<p>The final option is <strong>Settings</strong>. This takes you to the repository settings where you can add collaborators, set whether the repo is public or private, transfer ownership to another user, and even delete the repository from GitHub.</p>
 
                     
                     </section>
@@ -331,10 +325,10 @@
         </div>
 
         
-        <a href="./new-repo-first-commit.html" class="navigation navigation-prev " aria-label="Previous page: New Repository and First Commit"><i class="fa fa-angle-left"></i></a>
+        <a href="./name-summary-files.html" class="navigation navigation-prev " aria-label="Previous page: Name, Summary, and Files"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./github-basics.html" class="navigation navigation-next " aria-label="Next page: GitHub Basics"><i class="fa fa-angle-right"></i></a>
+        <a href="./issues.html" class="navigation navigation-next " aria-label="Next page: GitHub Issues"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

@@ -1,4 +1,4 @@
-## OK, Let's Get Started!
+# OK, Let's Get Started!
 
 1. Register an account at [GitHub](https://github.com/join).
 2. Download and install the [GitHub desktop app](https://desktop.github.com/). *(This guide will assume you're on Windows from here on out--the Mac desktop app may work a bit differently.)*

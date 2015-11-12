@@ -6,6 +6,7 @@
   * [New Repository and First Commit](new-repo-first-commit.md)
   * [Creating a History of Commits](creating-history-commits.md)
 * [GitHub Basics](github-basics.md)
+  * [Name, Summary, and Files](name-summary-files.md)
   * [The Sidebar](sidebar.md)
   * [GitHub Issues](issues.md)
 * [Using Branches](using-branches.md)

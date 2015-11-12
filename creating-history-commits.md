@@ -1,4 +1,4 @@
-### Creating a History of Commits
+# Creating a History of Commits
 
 Now that you've got a repository, you'll need to make commits to keep track of your work. In the GitHub desktop app, you'll have two main view for your repo: the commit history and the uncommitted changes. You can switch between these views with the buttons in the top-center of the program. You've already seen what the history view looks like when we viewed your first automatic commit. Let's make some changes to your repo and take a look at that!
 
@@ -16,7 +16,7 @@ Easy, right? Now we can go back to our history view and see the new commit at th
 
 Now that you know how to review changes between commits and create new commits, you're ready to build a habit of committing changes to your work on a regular basis.
 
-### When Should I Commit?
+## When Should I Commit?
 
 If you ask Google that question, you'll get all sorts of dubious relationship advice. I can't really advise you about relationships, but I can give you advice on when to create commits to your work.
 

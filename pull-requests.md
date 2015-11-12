@@ -1,4 +1,4 @@
-### Use Pull Request to Merge Back into Master
+# Use Pull Request to Merge Back into Master
 
 GitHub Desktop makes it easy to submit changes in your branch for team review before merging back into your master branch. Once you think your work is ready to be reviewed, go ahead and create a **pull request**.
 

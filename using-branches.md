@@ -1,4 +1,4 @@
-## Using Branches
+# Using Branches
 
 It's hard to collaborate on a large project where many different people are working on the same set of files. There's always the chance that you're overwriting something another person wrote and vice versa. You will encounter these problems with your git repositories, but git and GitHub provide a powerful feature to deal with these conflicts: **branches**.
 

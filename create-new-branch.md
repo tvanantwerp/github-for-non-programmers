@@ -1,4 +1,4 @@
-### Create a Branch
+# Create a Branch
 
 To create a new branch, click the branch icon in the GitHub Desktop App and give it a name. I'm going to demo branches by creating a new branch for this guide. I'm going to write this entire section about branching in my new branch, `branch-about-branching`!
 
