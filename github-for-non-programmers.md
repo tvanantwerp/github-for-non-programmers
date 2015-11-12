@@ -155,6 +155,8 @@ When you first view the Issues screen, you'll see an empty box where all of your
 
 ![Submit new Issues](images/issues-welcome.png)
 
+#### Creating Your First Issue
+
 To demonstrate how Issues work, I'm going to create new Issues for the rest of this guide. After clicking the New Issue button, we'll start creating our first GitHub Issue!
 
 ![New Issue](images/new-issue.png)
@@ -163,14 +165,56 @@ New Issues take five kinds of information. The most important two are the name a
 
 The other three types of information an Issue can have are **Labels**, **Milestones**, and **Assignees**.
 
+#### Labels
+
 Labels are informative tags that describe what kind of an issue this is. I've tagged our example with the *enhancement* label, because the work that satisfies this issue would constitute an enhancement to the project. Each repo has several default Labels, but you can edit them, delete them, and create your own. An issue can have multiple Labels.
 
 ![Labels](images/labels.png)
+
+#### Milestones
 
 Milestones are large strategic project goals. You can optionally create project Milestones and assign issues to them. The Milestones view will let you see each of these larger goals and your progress toward completing them based on how many of the issues assigned to that Milestone have been closed.
 
 ![Example Milestones for this guide](images/milestones.png)
 
+#### Assignees
+
 Assignees are the people who are collaborators on your project who have been assigned this Issue. This lets you designate who is working on what.
 
+#### Submit the Issue
+
 You don't need to use Labels, Milestones, or Assignees, but they are helpful for larger projects to keep track of things. Once you're happy with the Issue you've created, go ahead and click the green button **Submit new issue**.
+
+## Using Branches
+
+It's hard to collaborate on a large project where many different people are working on the same set of files. There's always the chance that you're overwriting something another person wrote and vice versa. You will encounter these problems with your git repositories, but git and GitHub provide a powerful feature to deal with these conflicts: **branches**.
+
+All git repos start with one **master branch**. All of your work so far has been committed as part of this branch. But you can also create your own branches--an offshoot of your project starting at a particular commit. You can make new commits inside a separate branch without affecting the master or other branches. And once you're done with your work, your feature branch can be merged back into the master. Keeping large chunks of your work in a separate feature branch from master also lets you use **pull requests** where your teammates can review what you want to merge into master and help with the process.
+
+### Create a Branch
+
+To create a new branch, click the branch icon in the GitHub Desktop App and give it a name. I'm going to demo branches by creating a new branch for this guide. I'm going to write this entire section about branching in my new branch, `branch-about-branching`!
+
+![New Branch](images/new-branch.png)
+
+By default, new branches are based off of the master branch. You could also base a new branch off of yet another branch if you like. Branching structures can get quite complicated, but I'll keep things simple in this guide by only showing what a feature branch workflow might look like. That means that I'll limit each branch to being about just one new feature, which, when complete, will be merged back into master.
+
+![New Branch Display](images/new-branch-display.png)
+
+You'll notice that the bar along the top of your GitHub Desktop App has changed. You're now looking at the new branch, which isn't yet published on GitHub. This branch only exists on your PC for the time being. Let's got ahead and publish it so that GitHub will be keeping a copy as well.
+
+By default, GitHub displays a repo's master branch. But you can view other branches on GitHub too. We can see that our new branch was successfully added to the GitHub repo.
+
+![Branches in GitHub](images/github-branches.png)
+
+Now that we've created this new branch, we can add all of our relevant commits to just this branch. It won't affect what's on the master branch at all! This is a great way to experiment with projects, trying out new ideas without risking the destruction of preexisting good work.
+
+### Use Pull Request to Merge Back into Master
+
+GitHub Desktop makes it easy to submit changes in your branch for team review before merging back into your master branch. Once you think your work is ready to be reviewed, go ahead and create a **pull request**.
+
+![Pull Request](images/pull-request.png)
+
+A pull request is a way to alert your teammates that you want to merge a certain branch. All the changes contained within that branch can be compared against the existing branch you want to merge into. When creating your pull request, give it a descriptive name and feel free to write a lengthier description of all that changes your branch is intended to make.
+
+When you click **Send pull request**, it will add the request on GitHub. You and your teammates will be able to discuss the request in the same way you can discuss Issues. If no conflicting changes have been made to the branch you're merging into since you started your own branch, GitHub will give you the option to go ahead and accept the pull request. Once the pull request is accepted and the branch is merged, you can delete your feature branch.
