@@ -1,14 +1,14 @@
 # GitHub for Non-Programmers
 
-As a programmer, using `git` and GitHub makes work much easier. But most of my colleagues are not programmers. I believe they could benefit from GitHub as well, but they don't already know how to use it and aren't inclined to become "hackers". That's why I'm writing this guide: I want to demonstrate a simple workflow with GitHub that anyone--not merely coders--can follow and benefit from.
+GitHub is a website designed for programmers to collaboratively build their code. But that doesn't mean you need to be a programmer to use it! You can get started with collaborative version-tracking of your (non-programming) work without ever writing a line of code or using the command line.
 
-## Who is This Guide For?
+## A Guide for People Who Don't Code and Don't Want to Code.
+
+If you're unsure whether or not GitHub is something you want to try, I can understand. Learning new things is mentally taxing. So let me promise you now: once you've gone through this guide and given the GitHub workflow a try, you'll never want to go back to the way it was before. Why is that? Because the GitHub workflow is surprisingly simple and sane. You're going to eliminate a lot of problems that are *already* taxing your brain, such as "Which version of this file was the final one?" and "Who is responsible for making this edit?" Trust me, you're going to like this once you get into it.
 
 This guide isn't meant to turn someone into a `git` master. It should show non-programmers a simple way to add `git` and GitHub to their work process with a minimum of jargon. This guide will contain no code, and it will only show how to use the GitHub desktop app for simplicity's sake.
 
-The audience I'm writing this for probably doesn't write code, and probably never wants to write code. They are happy with the subpar version control they have (e.g., `file.docx`, `file final.docx`, `file FINAL.docx`, etc.), not because it's good, but because they don't know any other way to do it. They won't adopt GitHub unless they are shown clearly and simply what it is, what pain points it solves, and how they can start using it without having to learn too much.
-
-Don't think I'm judging the audience--this is all normal human behavior. The audience knows lots of things that I don't know and, frankly, don't want to know. But I do know GitHub, and I think their lives would be better if they did too. So I'm going to try to convince them as gently as possible.
+You probably don't write code, and may never want to write code. You are happy with the subpar version control you have (e.g., `file.docx`, `file final.docx`, `file FINAL.docx`, etc.), not because it's good, but because you haven't been shown any other way to do it. This guide is an attempt to show you that better way without making your brain explode.
 
 ## Contributing
 
