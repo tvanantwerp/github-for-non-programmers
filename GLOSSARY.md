@@ -15,3 +15,9 @@ A website that lets you keep a copy of your git repository online. It also allow
 
 # Issue
 A feature of GitHub that works like a to-do list for your project. Submit issues to designate problems to solve, questions to answer, features to build, etc.
+
+# Branch
+A branch is a separate copy of your repo from a specific commit. You can do new work in your branch without affecting work in other branches. You can later merge your branch into other branches, or, if you choose, delete that branch and the work you did on it. Branches let you try new things without risking the work you've completed so far.
+
+# Pull Request
+A feature of GitHub that lets you propose merging two branches. Collaborators can discuss the quality of the merge, and commits made on the branch after making the pull request are automatically made a part of the pull request. Once consensus is reached, the branch is either merged or the pull request is rejected.
