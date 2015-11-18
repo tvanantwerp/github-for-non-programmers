@@ -1,4 +1,13 @@
-.glossary-term {
-  color: #514e79 !important;
-  text-decoration: none !important;
+/* Section titles */
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li span {
+  line-height: 1.5;
+  white-space: normal;
+}
+
+/* Glossary terms */
+.book .book-body .page-wrapper .page-inner section.normal .glossary-term,
+.book .book-body .page-wrapper .page-inner section.normal a.glossary-term {
+  color: #514e79;
+  text-decoration: none;
 }
