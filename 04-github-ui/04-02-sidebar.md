@@ -1,6 +1,6 @@
 # The Sidebar
 
-![GitHub's Right Sidebar](images/github-right-sidebar.png)
+![GitHub's Right Sidebar](/images/github-right-sidebar.png)
 
 The sidebar on the right side of your repo's page let's you quickly navigate to features related to your project. By default, you're on the **Code** page where you can see your files and information from the most recent commit to affect each of them.
 

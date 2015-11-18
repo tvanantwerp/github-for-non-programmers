@@ -4,7 +4,7 @@ Before we talk about GitHub, we have to talk about a program called **git**. Man
 
 Git works by allowing you to **commit** a snapshot of your work with a descriptive name. Each commit should have a name that tells you something about what you've changed since the previous commit. A list of commits  ordered newest to oldest might look like this:
 
-![Git Commit History](images/git-commits.png)
+![Git Commit History](/images/git-commits.png)
 
 Isn't that more informative than several copies of a Word document named `Content.docx`, `Content Final.docx`, `Content Final FINAL.docx`, etc.? By using git commits, you don't need multiple copies of a regularly changed file; there's only the one copy of the files you care about, and all the snapshots you took along the way. And with meaningful commit messages, you don't have to guess what changes are in what version of your work.
 

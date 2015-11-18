@@ -6,7 +6,7 @@ Inside the GitHub desktop app, when you are working on one of the repositories i
 When you choose a commit from the list, you can see what files have been changed on the right. The colored squares to the far right of a file's name indicate how much has been added versus how much has been removed from that file. Green equals additions, and red equals subtractions. If you click the arrow to the immediate left of a file's name, it will show you the exact lines of the file that have changed. (Note: this doesn't work for files that *are not* just lines of text, such as an image file.) Sections in green have been added, and sections in red have been removed. Below is an example from this very guide!
 
 # Changes to Text in a File
-![Git diff](images/git-diff.png)
+![Git diff](/images/git-diff.png)
 
 ## A note on naming things:
 
