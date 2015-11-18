@@ -1,5 +1,8 @@
 {
   "title": "GitHub for Non-Programmers",
   "description": "A guide about using GitHub for people who don't code and don't want to code.",
-  "language": "en"
+  "language": "en",
+  "styles": {
+    "website": "css/website.css"
+  }
 }
