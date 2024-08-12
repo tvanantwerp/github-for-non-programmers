@@ -10,6 +10,26 @@ This guide isn't meant to turn someone into a `git` master. It should show non-p
 
 You probably don't write code, and may never want to write code. You are happy with the subpar version control you have (e.g., `file.docx`, `file final.docx`, `file FINAL.docx`, etc.), not because it's good, but because you haven't been shown any other way to do it. This guide is an attempt to show you that better way without making your brain explode.
 
+## How to Start
+
+At the top of this repository page is the "navigation pane" that shows all the folders and files. Think of it as navigating your own computer's folders and files in Windows File Explorer or Mac Finder.
+
+![Repo directory](/images/ui-repo-directory.png)
+
+Start by clicking the folder named `01-intro`.
+
+![Intro folder](/images/ui-01-intro.png)
+
+Inside, you will see a file named `01-00-what-is-github-anyway.md`. Click this file to begin reading.
+
+![What is github file](/images/ui-01-00-what-is-github-anyway.png)
+
+Once you're done, navigate back to the main repository page by going to the top of the page and clicking `github-for-non-programmers`.
+
+![Repo main page](/images/ui-github-for-non-programmers.png)
+
+Continue the rest of the guide by reading the file(s) inside `02-getting-started`, then the file(s) `03-commits`, and so forth. There is also a handy summary file named `SUMMARY.md` with links to each topic.
+
 ## Contributing
 
 Any help is welcome in improving this guide. Please see [our contributing guidelines](https://github.com/tvanantwerp/github-for-non-programmers/blob/master/CONTRIBUTING.md) for ways to help out.
