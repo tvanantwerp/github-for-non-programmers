@@ -8,6 +8,9 @@
 
 Fork this repository, add your section, and submit a pull request. If it enhances the guide, I'll merge it in.
 
+## I am learning how to add this change
+I am a beginner and appreciate your guidance.
+
 ## This guide stinks. You stink. You're a stinky poo-poo head.
 
 Well, that's just, like, your opinion, man.
